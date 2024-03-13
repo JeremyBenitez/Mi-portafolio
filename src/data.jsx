@@ -131,7 +131,7 @@ export const stats = [
 
   {
     id: 3,
-    no: '81+',
+    no: '+5',
     title: 'Clientes <br /> Satisfechos',
   },
 
@@ -143,9 +143,10 @@ export const resume = [
     id: 1,
     category: 'Experiencia',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2021-2022',
+    title: 'Desarrolador <span> web </span>',
+    desc: 'Fundacion Bolivariana de informatica y telematica (Fundabit)'
+    
   },
 
   {
@@ -156,42 +157,18 @@ export const resume = [
     title: 'UI/UX Designer <span> Themeforest </span>',
     desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
   },
-
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },
+  
 
   {
     id: 4,
     category: 'educación',
     icon: <FaGraduationCap />,
     year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    title: 'Ingenieria en <span> informatica </span>',
+    desc: 'Universidad Nacional Experimental de la gran Caracas (UNEXCA)',
   },
 
-  {
-    id: 5,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
-  },
+ 
 ];
 
 export const skills = [
