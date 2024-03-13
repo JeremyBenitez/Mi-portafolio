@@ -139,36 +139,27 @@ export const stats = [
 ];
 
 export const resume = [
-  {
-    id: 1,
-    category: 'Experiencia',
-    icon: <FaBriefcase />,
-    year: '2021-2022',
-    title: 'Desarrolador <span> web </span>',
-    desc: 'Fundacion Bolivariana de informatica y telematica (Fundabit)'
-    
-  },
+
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2021 - 2023',
+    title: 'Desarrolador <span> web </span>',
+    desc: 'Fundacion Bolivariana de informatica y telematica (Fundabit)'
+    
   },
-  
-
-  {
-    id: 4,
-    category: 'educación',
-    icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Ingenieria en <span> informatica </span>',
-    desc: 'Universidad Nacional Experimental de la gran Caracas (UNEXCA)',
-  },
-
  
+  {
+    id: 5,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2018 - 2023',
+    title: 'Ingeniería en informatica',
+    desc: 'Universidad Nacional Experimental de la gran caracas (UNEXCAS)',
+  },
+
 ];
 
 export const skills = [

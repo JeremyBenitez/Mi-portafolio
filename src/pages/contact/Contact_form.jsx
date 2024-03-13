@@ -29,7 +29,7 @@ export const ContactUs = () => {
             <div className="form__input-div">
               <input name="name"
                 type="text"
-                placeholder="your name"
+                placeholder="Tu nombre"
                 className="form__control"
               />
             </div>
@@ -37,7 +37,7 @@ export const ContactUs = () => {
             <div className="form__input-div">
               <input name="email"
                 type="email"
-                placeholder="your email"
+                placeholder="Tu email"
                 className="form__control"
               />
             </div>
