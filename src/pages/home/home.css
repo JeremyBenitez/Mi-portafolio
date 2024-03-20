@@ -15,6 +15,16 @@
     z-index: 1 ;
 }
 
+.home__img{
+	display: flex;
+	justify-content: center;
+	}
+	@media screen and (max-width: 700px) {
+		.home__img {
+		display: inline-block;
+	}
+}
+
 .home__data{
     
     max-width: 600px;
@@ -65,3 +75,4 @@
      left: -83%;
      transform: rotate(-15deg);
 }
+
