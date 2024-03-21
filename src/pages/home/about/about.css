@@ -182,7 +182,7 @@
 
  @media (max-width: 768px) {
   .about__container,
-  .info__list,
+  .info__list, .stats,
   .resume__container{
     grid-template-columns: repeat(1, 1fr);
     align-items: flex-start;
