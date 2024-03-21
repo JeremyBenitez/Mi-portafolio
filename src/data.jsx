@@ -172,7 +172,7 @@ export const skills = [
   {
     id: 2,
     title: 'Javascript',
-    percentage: '100',
+    percentage: '70',
   },
 
   {
@@ -184,19 +184,19 @@ export const skills = [
   {
     id: 4,
     title: 'Php',
-    percentage: '80',
+    percentage: '90',
   },
 
   {
     id: 5,
     title: 'Wordpress',
-    percentage: '65',
+    percentage: '70',
   },
 
   {
     id: 6,
     title: 'Jquery',
-    percentage: '45',
+    percentage: '70',
   },
 
   {
@@ -212,9 +212,25 @@ export const skills = [
   },
   {
     id: 9,
-    title: 'Documentación de sistema',
-    percentage: '50',
+    title: 'Documentación',
+    percentage: '70',
   },
+  {
+    id: 10,
+    title: 'Diseño web',
+    percentage: '70',
+  },
+  {
+    id: 11,
+    title: 'PostgreSQL',
+    percentage: '70',
+  },
+  {
+    id: 12,
+    title: 'Python',
+    percentage: '60',
+  }
+
 ];
 
 export const portfolio = [
