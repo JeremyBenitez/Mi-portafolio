@@ -210,6 +210,11 @@ export const skills = [
     title: 'React',
     percentage: '70',
   },
+  {
+    id: 9,
+    title: 'Documentación de sistema',
+    percentage: '50',
+  },
 ];
 
 export const portfolio = [
