@@ -47,22 +47,7 @@ export const Contact = () => {
             </div>
           </div>
 
-          <div className="contact__socials">
-            <a href="https://www.facebook.com" className="contact__socials-link">
-              <FaFacebookF />
-            </a>
-
-            <a href="https://twitter.com" className="contact__socials-link">
-              <FaTwitter />
-            </a>
-
-            <a
-              href="https://www.instagram.com"
-              className="contact__socials-link"
-            >
-              <FaInstagram />
-            </a>
-          </div>
+         
         </div>
       <ContactUs />
       </div>

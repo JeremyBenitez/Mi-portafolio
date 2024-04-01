@@ -11,7 +11,10 @@
 
 .show-menu {
   left: 0;
+  z-index: 100;
+  
 }
+
 
 .nav__link {
   display: flex;
@@ -49,6 +52,7 @@
   border-radius: 5px;
   background-color: var(--container-color);
   padding: 12px 10px;
+  z-index: 100;
 }
 
 .nav__toggle span {
@@ -151,3 +155,15 @@
 
     }
 }
+
+@media (max-width: 768px) {
+  .show-menu {
+    position: absolute;
+    height: auto;
+    
+  }
+
+}
+
+
+

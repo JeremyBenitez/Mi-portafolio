@@ -59,6 +59,7 @@
     position: relative;
 }
 
+
 .modal__close{
     width: 50px;
     position: absolute;
@@ -104,3 +105,21 @@
     height: 350px;
     object-fit: cover;
 }
+
+
+@media (max-width: 768px) {
+    .portfolio__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+  }
+
+  @media (max-width: 768px) {
+    .portfolio__modal,
+    .portfolio__modal-content{
+      width: 100%;
+    height: auto;
+        
+        
+    }
+  }
