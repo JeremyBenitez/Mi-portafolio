@@ -57,6 +57,7 @@
     padding: 32px;
     border-radius: 10px;
     position: relative;
+    margin: 0 auto;
 }
 
 
@@ -110,16 +111,19 @@
 @media (max-width: 768px) {
     .portfolio__container{
         grid-template-columns: repeat(1, 1fr);
+        
     }
   
   }
 
   @media (max-width: 768px) {
-    .portfolio__modal,
-    .portfolio__modal-content{
-      width: 100%;
-    height: auto;
+       
+ .portfolio__modal-content{
+    max-width: 90%; /* Reduce el ancho máximo del contenedor para pantallas más pequeñas */
+    padding: 16px; /* Reduce el relleno del contenedor para pantallas más pequeñas */
+        
+}
         
         
     }
-  }
+  
