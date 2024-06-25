@@ -31,28 +31,28 @@ import Theme10 from './assets/yellow.png';
 export const links = [
   {
     id: 1,
-    name: 'Home',
+    name: 'Inicio',
     icon: <FaHome className='nav__icon' />,
     path: '/',
   },
 
   {
     id: 2,
-    name: 'About',
+    name: 'Acerca',
     icon: <FaUser className='nav__icon' />,
     path: '/about',
   },
 
   {
     id: 3,
-    name: 'Portfolio',
+    name: 'Portafolio',
     icon: <FaFolderOpen className='nav__icon' />,
     path: '/portfolio',
   },
 
   {
     id: 4,
-    name: 'Contact',
+    name: 'Contacto',
     icon: <FaEnvelopeOpen className='nav__icon' />,
     path: '/contact',
   },
@@ -160,6 +160,16 @@ export const resume = [
     desc: 'Universidad Nacional Experimental de la gran caracas (UNEXCAS)',
   },
 
+  {
+    id: 2,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: 'cursando',
+    title: 'ingles',
+    desc: 'Curso en la escuela de idiomas modernos (Fundeim)',
+  },
+
+
 ];
 
 export const skills = [
@@ -172,48 +182,48 @@ export const skills = [
   {
     id: 2,
     title: 'Javascript',
-    percentage: '70',
+    percentage: '40',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '80',
+    percentage: '70',
   },
 
   {
     id: 4,
     title: 'Php',
-    percentage: '90',
+    percentage: '50',
   },
 
   {
     id: 5,
     title: 'Wordpress',
-    percentage: '70',
+    percentage: '50',
   },
 
   {
     id: 6,
     title: 'Jquery',
-    percentage: '70',
+    percentage: '30',
   },
 
   {
     id: 7,
     title: 'Angular',
-    percentage: '70',
+    percentage: '60',
   },
 
   {
     id: 8,
     title: 'React',
-    percentage: '70',
+    percentage: '60',
   },
   {
     id: 9,
     title: 'Documentación',
-    percentage: '70',
+    percentage: '50',
   },
   {
     id: 10,
@@ -223,12 +233,12 @@ export const skills = [
   {
     id: 11,
     title: 'PostgreSQL',
-    percentage: '70',
+    percentage: '50',
   },
   {
     id: 12,
     title: 'Python',
-    percentage: '60',
+    percentage: '40',
   }
 
 ];

@@ -15,11 +15,9 @@
     border-radius: 30px;
     box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
     z-index: 1;
-    
    
-    
-    
 }
+
 
 
 
@@ -73,14 +71,24 @@
      top: -50%;
      left: -83%;
      transform: rotate(-15deg);
+     z-index: -10;
 }
 
 
 @media (max-width: 768px) {
     .home__img{
         width: auto; /* Permitir que la imagen mantenga su tamaño original */
-        max-width: 100%; /* La imagen no superará el ancho del contenedor */
-        height: auto; /* La altura se ajusta automáticamente */
+        max-width: 200px; /* La imagen no superará el ancho del contenedor */
+        margin-bottom: -800px; /* Opcional: espacio entre texto e imagen */
+        margin-left: 50px;
+        
+    }
+  
+  }
+
+  @media (max-width: 768px) {
+    .home__data{
+    margin-left: -260px;
     }
   
   }

@@ -154,6 +154,7 @@ img{
 
 .button{
     display: inline-block;
+    background-color: var(--container-color);
     color: var(--title-color);
     border: 1px solid var(--first-color);
     padding: 15px 70px 15px 35px;
@@ -166,6 +167,19 @@ img{
     transition: all 0.25s ease-in-out;
 }
 
+.button__icon{
+    background-color: var(--first-color);
+    position: absolute;
+    inset-block: -2px;
+    right: 0;
+    width: 55px;
+    border-radius: 50%;
+    color: var(--text-white);
+    font-size: var(--large-font-size);
+    text-align: center;
+    line-height: 60px;
+
+}
 
 
 .button:hover{
@@ -189,16 +203,3 @@ img{
 
 }
 
-.button__icon{
-    background-color: var(--first-color);
-    position: absolute;
-    inset-block: -2px;
-    right: 0;
-    width: 55px;
-    border-radius: 50%;
-    color: var(--text-white);
-    font-size: var(--large-font-size);
-    text-align: center;
-    line-height: 60px;
-
-}
