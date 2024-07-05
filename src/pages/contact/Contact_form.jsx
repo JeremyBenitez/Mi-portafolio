@@ -10,12 +10,12 @@ export const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_7jljtkg', 'template_l6j60o2', form.current, {
+      .sendForm('service_yw9a2gd', 'template_gb1t865', form.current, {
         publicKey: '_h4w_fZnG1JkfPpuo',
       })
       .then(
         () => {
-          alert('Correo enviado exitosamente');
+          alert('Correo enviado exitosamente, lo contactare lo más pronto posible :)');
         },
         (error) => {
          alert('Falló al enviar correo', error.text);

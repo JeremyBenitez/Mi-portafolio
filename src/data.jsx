@@ -74,7 +74,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Edad : ',
-    description: '22 años',
+    description: '23 años',
   },
 
   {
@@ -147,7 +147,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: '2021 - 2023',
     title: 'Desarrolador <span> web </span>',
-    desc: 'Fundacion Bolivariana de informatica y telematica (Fundabit)'
+    desc: 'Fundacion Bolivariana de informatica y telemática (Fundabit)'
     
   },
  
