@@ -288,6 +288,7 @@ export const portfolio = [
         desc: 'MPPE',
       },
       {
+        
         icon: <FaCode />,
         title: 'Lenguaje : ',
         desc: 'Javascript', 
