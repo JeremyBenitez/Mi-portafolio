@@ -85,7 +85,7 @@ export const personalInfo = [
 
   {
     id: 5,
-    title: 'Freelance : ',
+    title: 'Freelancer : ',
     description: 'Disponible',
   },
 
@@ -275,17 +275,17 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Portal web',
+    title: 'Api buscar pokemon',
     details: [
       {
         icon: <FiFileText />,
         title: 'Proyecto : ',
-        desc: 'Website',
+        desc: 'aplicacion',
       },
       {
         icon: <FiUser />,
         title: 'Cliente : ',
-        desc: 'MPPE',
+        desc: 'proyecto personal',
       },
       {
         
@@ -296,7 +296,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Enlace : ',
-        desc: 'https://museosbolivarianos.mincyt.gob.ve',
+        desc: 'https://buscarunpokemon.netlify.app',
       },
     ],
   },
